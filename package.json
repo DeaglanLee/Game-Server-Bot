@@ -1,0 +1,25 @@
+{
+  "name": "jsfirstdiscordbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-cost-explorer": "^3.632.0",
+    "@aws-sdk/client-ec2": "^3.627.0",
+    "@aws-sdk/client-iam": "^3.726.1",
+    "@aws-sdk/client-ssm": "^3.624.0",
+    "@discordjs/rest": "^2.3.0",
+    "discord-api-types": "^0.37.93",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

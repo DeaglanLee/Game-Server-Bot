@@ -1,0 +1,10 @@
+version: "3.9"
+
+name: gameserverdiscordbot
+services:
+  bot:
+    image: game-server-bot
+    env_file: .env
+    restart: always
+    volumes:
+      - ~/.aws:/root/.aws
